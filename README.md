@@ -18,6 +18,8 @@ npm run dev
 ```
 After running the `npm run dev` command, you should be able to view the development build at http://localhost:8080
 
+
+
 ### Running production build locally with Docker
 #### 1. Run the production build
 ```bash
@@ -32,10 +34,21 @@ docker-compose up -d
 After running the `docker-compose up` command, you should be able to view the production build at http://localhost:8080
 
 
+
+### Running Tests
+Before running tests, make sure that the development server or the docker container is running at http://localhost:8080.
+```bash
+npm run test
+```
+
+
+
 ## What technologies are being used?
 - [Next.js](https://nextjs.org)
 - [Prisma](https://prisma.io)
 - [Tailwind CSS](https://tailwindcss.com)
 - [tRPC](https://trpc.io)
+- [Playwright](https://playwright.dev)
+- [Mapbox](https://mapbox.com)
 
 *If you are not familiar with any of the different technologies used in this project, please refer to the respective docs.*
