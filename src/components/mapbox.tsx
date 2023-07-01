@@ -102,7 +102,7 @@ export default function Mapbox() {
           </Button>
         </div>
       </div>
-      <div ref={mapContainerRef} className="h-full w-full" />
+      <div ref={mapContainerRef} className="h-full w-full" data-testid="map" />
     </div>
   );
 }
