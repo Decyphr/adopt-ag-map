@@ -35,7 +35,7 @@ After running the `docker-compose up` command, you should be able to view the pr
 
 
 
-### Running Tests
+## Testing
 Before running tests, make sure that the development server or the docker container is running at http://localhost:8080.
 ```bash
 npm run test
