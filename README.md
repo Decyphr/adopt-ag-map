@@ -12,6 +12,12 @@ git clone https://github.com/Decyphr/adopt-ag-map.git
 npm install
 ```
 
+#### 3. Copy Example Environment Variables to .env
+```bash
+cp .env.example .env
+```
+*Note: You'll need to add a mapbox public key in order to load the map. NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN="pk.xxxxx"*
+
 #### 3. Start the development server
 ```bash
 npm run dev
