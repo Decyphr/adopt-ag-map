@@ -48,6 +48,12 @@ npm run test
 ```
 
 
+## Viewing the SQLite Database
+Prisma is awesome, and includes a studio locally to view the app data. Run the following command, and you'll be able to inspect the database at http://localhost:5555.
+```bash
+npm run db:studio
+```
+
 
 ## What technologies are being used?
 - [Next.js](https://nextjs.org)

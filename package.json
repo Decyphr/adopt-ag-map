@@ -8,7 +8,8 @@
     "postinstall": "prisma generate",
     "lint": "next lint",
     "start": "next start --port 8080",
-    "test": "playwright test"
+    "test": "playwright test",
+    "db:studio": "prisma studio"
   },
   "dependencies": {
     "@mapbox/mapbox-gl-draw": "^1.4.2",

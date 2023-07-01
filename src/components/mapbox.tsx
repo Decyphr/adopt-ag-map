@@ -79,12 +79,15 @@ export default function Mapbox() {
     }
 
     // Send data to server to save to db
-    createGeoJson({ geoJson: JSON.stringify(data.features) });
+    const stringifiedData = JSON.stringify(data.features);
+    createGeoJson({ geoJson: stringifiedData })
 
-    // Notify user of success
     toast({
-      description: "Successfully saved plot data!",
+      title: "Success!",
+      description: "Your GeoJSON data was saved.",
+      duration: 3500,
     });
+    
   }
 
   return (
