@@ -92,13 +92,13 @@ export default function Mapbox() {
 
   return (
     <div className="flex h-screen w-full flex-col">
-      <div className="container flex h-[80px] items-center justify-between">
+      <div className="container flex flex-col md:flex-row md:h-[80px] items-center justify-between p-4">
         <Link href="/">
           <h1 className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text font-extrabold text-transparent">
             mapDash.
           </h1>
         </Link>
-        <div>
+        <div className="flex items-center justify-center mt-4 md:mt-0">
           <OnboardingDialog />
           <Button type="submit" className="ml-4" onClick={saveGeoJson}>
             Save

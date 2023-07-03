@@ -7,12 +7,16 @@ import {
   DialogTrigger,
 } from "~/components/ui/dialog"
 import { Button } from "~/components/ui/button"
+import { HelpCircle } from "lucide-react"
 
 export default function OnboardingDialog() {
   return (
     <Dialog defaultOpen>
       <DialogTrigger>
-        <Button variant="ghost">Help</Button>
+        <Button variant="ghost">
+          <span className="sr-only">Help</span>
+          <HelpCircle />
+        </Button>
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>
